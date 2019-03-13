@@ -7,6 +7,7 @@ class ViewController: NSViewController {
     super.viewDidLoad()
 
     // Do any additional setup after loading the view.
+    tableView.setDraggingSourceOperationMask(.every, forLocal: false)
   }
 
   override var representedObject: Any? {
